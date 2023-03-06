@@ -46,7 +46,7 @@ pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=pixel_brightness, a
 ##### RFID SETTINGS
 
 
-RFID_PRE_PAD  = "__"          # If you want to pad the front of the ID, add it here
+RFID_PRE_PAD  = ""          # If you want to pad the front of the ID, add it here
 RFID_POST_PAD = ""          # if you want to pad the end of the ID, add it here
 RFID_UPPERCASE_ID = True    # Do you want the ID writtend in uppercase letters ?
 RFID_PRESS_ENTER  = True    # Do you want the keyboard to press enter after writing the ID
